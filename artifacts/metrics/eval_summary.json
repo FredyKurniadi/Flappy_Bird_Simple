@@ -1,0 +1,9 @@
+{
+  "mean_reward": 7.85,
+  "std_reward": 4.180968787254935,
+  "n_eval_episodes": 10,
+  "total_timesteps": 3000000,
+  "seed": 42,
+  "env_id": "FlappyBird-v0",
+  "use_lidar": true
+}

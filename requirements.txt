@@ -1,0 +1,13 @@
+# Reproducible dependency set for Flappy Bird DQN (SB3)
+# Tested on Python 3.11.x (Windows)
+flappy-bird-gymnasium==0.4.0
+gymnasium==0.29.1
+stable-baselines3==2.3.2
+torch==2.3.1
+numpy==1.26.4
+pygame==2.5.2
+tensorboard==2.16.2
+python-dotenv==1.0.1
+imageio==2.34.1
+imageio-ffmpeg==0.5.1
+Pillow==10.4.0

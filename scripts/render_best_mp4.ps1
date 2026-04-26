@@ -1,0 +1,8 @@
+$ErrorActionPreference = "Stop"
+
+if (-not (Test-Path ".venv\Scripts\Activate.ps1")) {
+    throw "Virtual environment not found. Run .\scripts\setup_env.ps1 first."
+}
+
+& ".venv\Scripts\Activate.ps1"
+python .\render_best.py
